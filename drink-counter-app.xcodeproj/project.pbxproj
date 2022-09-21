@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F357CF2328DB96B500CAB09F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2228DB96B500CAB09F /* AppDelegate.swift */; };
+		F357CF2528DB96B500CAB09F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2428DB96B500CAB09F /* SceneDelegate.swift */; };
+		F357CF2728DB96B500CAB09F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2628DB96B500CAB09F /* ViewController.swift */; };
+		F357CF2A28DB96B500CAB09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2828DB96B500CAB09F /* Main.storyboard */; };
+		F357CF2C28DB96BE00CAB09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2B28DB96BE00CAB09F /* Assets.xcassets */; };
+		F357CF2F28DB96BE00CAB09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2D28DB96BE00CAB09F /* LaunchScreen.storyboard */; };
+		F357CF3A28DB96BE00CAB09F /* drink_counter_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF3928DB96BE00CAB09F /* drink_counter_appTests.swift */; };
+		F357CF4428DB96BE00CAB09F /* drink_counter_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF4328DB96BE00CAB09F /* drink_counter_appUITests.swift */; };
+		F357CF4628DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF4528DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F357CF3628DB96BE00CAB09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F357CF1728DB96B500CAB09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F357CF1E28DB96B500CAB09F;
+			remoteInfo = "drink-counter-app";
+		};
+		F357CF4028DB96BE00CAB09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F357CF1728DB96B500CAB09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F357CF1E28DB96B500CAB09F;
+			remoteInfo = "drink-counter-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F357CF1F28DB96B500CAB09F /* drink-counter-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drink-counter-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357CF2228DB96B500CAB09F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F357CF2428DB96B500CAB09F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F357CF2628DB96B500CAB09F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F357CF2928DB96B500CAB09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F357CF2B28DB96BE00CAB09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F357CF2E28DB96BE00CAB09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F357CF3028DB96BE00CAB09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F357CF3528DB96BE00CAB09F /* drink-counter-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drink-counter-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357CF3928DB96BE00CAB09F /* drink_counter_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink_counter_appTests.swift; sourceTree = "<group>"; };
+		F357CF3F28DB96BE00CAB09F /* drink-counter-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drink-counter-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F357CF4328DB96BE00CAB09F /* drink_counter_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink_counter_appUITests.swift; sourceTree = "<group>"; };
+		F357CF4528DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink_counter_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F357CF1C28DB96B500CAB09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3228DB96BE00CAB09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3C28DB96BE00CAB09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F357CF1628DB96B500CAB09F = {
+			isa = PBXGroup;
+			children = (
+				F357CF2128DB96B500CAB09F /* drink-counter-app */,
+				F357CF3828DB96BE00CAB09F /* drink-counter-appTests */,
+				F357CF4228DB96BE00CAB09F /* drink-counter-appUITests */,
+				F357CF2028DB96B500CAB09F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F357CF2028DB96B500CAB09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF1F28DB96B500CAB09F /* drink-counter-app.app */,
+				F357CF3528DB96BE00CAB09F /* drink-counter-appTests.xctest */,
+				F357CF3F28DB96BE00CAB09F /* drink-counter-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F357CF2128DB96B500CAB09F /* drink-counter-app */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF2228DB96B500CAB09F /* AppDelegate.swift */,
+				F357CF2428DB96B500CAB09F /* SceneDelegate.swift */,
+				F357CF2628DB96B500CAB09F /* ViewController.swift */,
+				F357CF2828DB96B500CAB09F /* Main.storyboard */,
+				F357CF2B28DB96BE00CAB09F /* Assets.xcassets */,
+				F357CF2D28DB96BE00CAB09F /* LaunchScreen.storyboard */,
+				F357CF3028DB96BE00CAB09F /* Info.plist */,
+			);
+			path = "drink-counter-app";
+			sourceTree = "<group>";
+		};
+		F357CF3828DB96BE00CAB09F /* drink-counter-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF3928DB96BE00CAB09F /* drink_counter_appTests.swift */,
+			);
+			path = "drink-counter-appTests";
+			sourceTree = "<group>";
+		};
+		F357CF4228DB96BE00CAB09F /* drink-counter-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF4328DB96BE00CAB09F /* drink_counter_appUITests.swift */,
+				F357CF4528DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift */,
+			);
+			path = "drink-counter-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F357CF1E28DB96B500CAB09F /* drink-counter-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357CF4928DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-app" */;
+			buildPhases = (
+				F357CF1B28DB96B500CAB09F /* Sources */,
+				F357CF1C28DB96B500CAB09F /* Frameworks */,
+				F357CF1D28DB96B500CAB09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "drink-counter-app";
+			productName = "drink-counter-app";
+			productReference = F357CF1F28DB96B500CAB09F /* drink-counter-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F357CF3428DB96BE00CAB09F /* drink-counter-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357CF4C28DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-appTests" */;
+			buildPhases = (
+				F357CF3128DB96BE00CAB09F /* Sources */,
+				F357CF3228DB96BE00CAB09F /* Frameworks */,
+				F357CF3328DB96BE00CAB09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F357CF3728DB96BE00CAB09F /* PBXTargetDependency */,
+			);
+			name = "drink-counter-appTests";
+			productName = "drink-counter-appTests";
+			productReference = F357CF3528DB96BE00CAB09F /* drink-counter-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F357CF3E28DB96BE00CAB09F /* drink-counter-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F357CF4F28DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-appUITests" */;
+			buildPhases = (
+				F357CF3B28DB96BE00CAB09F /* Sources */,
+				F357CF3C28DB96BE00CAB09F /* Frameworks */,
+				F357CF3D28DB96BE00CAB09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F357CF4128DB96BE00CAB09F /* PBXTargetDependency */,
+			);
+			name = "drink-counter-appUITests";
+			productName = "drink-counter-appUITests";
+			productReference = F357CF3F28DB96BE00CAB09F /* drink-counter-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F357CF1728DB96B500CAB09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F357CF1E28DB96B500CAB09F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F357CF3428DB96BE00CAB09F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F357CF1E28DB96B500CAB09F;
+					};
+					F357CF3E28DB96BE00CAB09F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F357CF1E28DB96B500CAB09F;
+					};
+				};
+			};
+			buildConfigurationList = F357CF1A28DB96B500CAB09F /* Build configuration list for PBXProject "drink-counter-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F357CF1628DB96B500CAB09F;
+			productRefGroup = F357CF2028DB96B500CAB09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F357CF1E28DB96B500CAB09F /* drink-counter-app */,
+				F357CF3428DB96BE00CAB09F /* drink-counter-appTests */,
+				F357CF3E28DB96BE00CAB09F /* drink-counter-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F357CF1D28DB96B500CAB09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357CF2F28DB96BE00CAB09F /* LaunchScreen.storyboard in Resources */,
+				F357CF2C28DB96BE00CAB09F /* Assets.xcassets in Resources */,
+				F357CF2A28DB96B500CAB09F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3328DB96BE00CAB09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3D28DB96BE00CAB09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F357CF1B28DB96B500CAB09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357CF2728DB96B500CAB09F /* ViewController.swift in Sources */,
+				F357CF2328DB96B500CAB09F /* AppDelegate.swift in Sources */,
+				F357CF2528DB96B500CAB09F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3128DB96BE00CAB09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357CF3A28DB96BE00CAB09F /* drink_counter_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F357CF3B28DB96BE00CAB09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F357CF4628DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift in Sources */,
+				F357CF4428DB96BE00CAB09F /* drink_counter_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F357CF3728DB96BE00CAB09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F357CF1E28DB96B500CAB09F /* drink-counter-app */;
+			targetProxy = F357CF3628DB96BE00CAB09F /* PBXContainerItemProxy */;
+		};
+		F357CF4128DB96BE00CAB09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F357CF1E28DB96B500CAB09F /* drink-counter-app */;
+			targetProxy = F357CF4028DB96BE00CAB09F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F357CF2828DB96B500CAB09F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F357CF2928DB96B500CAB09F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F357CF2D28DB96BE00CAB09F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F357CF2E28DB96BE00CAB09F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F357CF4728DB96BE00CAB09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F357CF4828DB96BE00CAB09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F357CF4A28DB96BE00CAB09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "drink-counter-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F357CF4B28DB96BE00CAB09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "drink-counter-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F357CF4D28DB96BE00CAB09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drink-counter-app.app/drink-counter-app";
+			};
+			name = Debug;
+		};
+		F357CF4E28DB96BE00CAB09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drink-counter-app.app/drink-counter-app";
+			};
+			name = Release;
+		};
+		F357CF5028DB96BE00CAB09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "drink-counter-app";
+			};
+			name = Debug;
+		};
+		F357CF5128DB96BE00CAB09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe.drink-counter-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "drink-counter-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F357CF1A28DB96B500CAB09F /* Build configuration list for PBXProject "drink-counter-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357CF4728DB96BE00CAB09F /* Debug */,
+				F357CF4828DB96BE00CAB09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357CF4928DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357CF4A28DB96BE00CAB09F /* Debug */,
+				F357CF4B28DB96BE00CAB09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357CF4C28DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357CF4D28DB96BE00CAB09F /* Debug */,
+				F357CF4E28DB96BE00CAB09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F357CF4F28DB96BE00CAB09F /* Build configuration list for PBXNativeTarget "drink-counter-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F357CF5028DB96BE00CAB09F /* Debug */,
+				F357CF5128DB96BE00CAB09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F357CF1728DB96B500CAB09F /* Project object */;
+}
