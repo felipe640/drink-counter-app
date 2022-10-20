@@ -32,5 +32,11 @@ class drink_counter_appTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test_counter() {
+        let model = CounterViewModel()
+        let counter = model.count(value: 2)
+        XCTAssertEqual(3, counter)
+    }
 
 }

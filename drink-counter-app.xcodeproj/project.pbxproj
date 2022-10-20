@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F346BB0128EFBE04000762F4 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346BB0028EFBE04000762F4 /* CounterModel.swift */; };
+		F346BB0528F7A0AE000762F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F346BB0428F7A0AE000762F4 /* Realm */; };
+		F346BB0728F7A0AE000762F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F346BB0628F7A0AE000762F4 /* RealmSwift */; };
+		F346BB0A28F8F6F8000762F4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346BB0928F8F6F8000762F4 /* Product.swift */; };
+		F346BB0C28F8FAA5000762F4 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346BB0B28F8FAA5000762F4 /* Restaurant.swift */; };
+		F346BB1028F8FE1F000762F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346BB0F28F8FE1F000762F4 /* User.swift */; };
+		F346BB1228F9002E000762F4 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346BB1128F9002E000762F4 /* GenericCell.swift */; };
 		F357CF2328DB96B500CAB09F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2228DB96B500CAB09F /* AppDelegate.swift */; };
 		F357CF2528DB96B500CAB09F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2428DB96B500CAB09F /* SceneDelegate.swift */; };
-		F357CF2728DB96B500CAB09F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF2628DB96B500CAB09F /* ViewController.swift */; };
 		F357CF2A28DB96B500CAB09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2828DB96B500CAB09F /* Main.storyboard */; };
 		F357CF2C28DB96BE00CAB09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2B28DB96BE00CAB09F /* Assets.xcassets */; };
 		F357CF2F28DB96BE00CAB09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357CF2D28DB96BE00CAB09F /* LaunchScreen.storyboard */; };
 		F357CF3A28DB96BE00CAB09F /* drink_counter_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF3928DB96BE00CAB09F /* drink_counter_appTests.swift */; };
 		F357CF4428DB96BE00CAB09F /* drink_counter_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF4328DB96BE00CAB09F /* drink_counter_appUITests.swift */; };
 		F357CF4628DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF4528DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift */; };
+		F357CF5528DB9CBD00CAB09F /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF5428DB9CBD00CAB09F /* CounterViewController.swift */; };
+		F357CF5728DB9CE400CAB09F /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357CF5628DB9CE400CAB09F /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F346BB0028EFBE04000762F4 /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
+		F346BB0928F8F6F8000762F4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F346BB0B28F8FAA5000762F4 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F346BB0F28F8FE1F000762F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F346BB1128F9002E000762F4 /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
 		F357CF1F28DB96B500CAB09F /* drink-counter-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drink-counter-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F357CF2228DB96B500CAB09F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F357CF2428DB96B500CAB09F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F357CF2628DB96B500CAB09F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F357CF2928DB96B500CAB09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F357CF2B28DB96BE00CAB09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F357CF2E28DB96BE00CAB09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		F357CF3F28DB96BE00CAB09F /* drink-counter-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drink-counter-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F357CF4328DB96BE00CAB09F /* drink_counter_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink_counter_appUITests.swift; sourceTree = "<group>"; };
 		F357CF4528DB96BE00CAB09F /* drink_counter_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink_counter_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F357CF5428DB9CBD00CAB09F /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		F357CF5628DB9CE400CAB09F /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F346BB0728F7A0AE000762F4 /* RealmSwift in Frameworks */,
+				F346BB0528F7A0AE000762F4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F346BB0228EFC4E7000762F4 /* Counter Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Counter Cell";
+			sourceTree = "<group>";
+		};
+		F346BB0828F8F6E0000762F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F346BB0928F8F6F8000762F4 /* Product.swift */,
+				F346BB0B28F8FAA5000762F4 /* Restaurant.swift */,
+				F346BB0F28F8FE1F000762F4 /* User.swift */,
+				F346BB1128F9002E000762F4 /* GenericCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F357CF1628DB96B500CAB09F = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +133,11 @@
 		F357CF2128DB96B500CAB09F /* drink-counter-app */ = {
 			isa = PBXGroup;
 			children = (
+				F346BB0828F8F6E0000762F4 /* Models */,
+				F357CF5828DB9D6800CAB09F /* Screen UI */,
+				F357CF5228DB9C6800CAB09F /* Screens Modules */,
 				F357CF2228DB96B500CAB09F /* AppDelegate.swift */,
 				F357CF2428DB96B500CAB09F /* SceneDelegate.swift */,
-				F357CF2628DB96B500CAB09F /* ViewController.swift */,
-				F357CF2828DB96B500CAB09F /* Main.storyboard */,
 				F357CF2B28DB96BE00CAB09F /* Assets.xcassets */,
 				F357CF2D28DB96BE00CAB09F /* LaunchScreen.storyboard */,
 				F357CF3028DB96BE00CAB09F /* Info.plist */,
@@ -127,6 +162,41 @@
 			path = "drink-counter-appUITests";
 			sourceTree = "<group>";
 		};
+		F357CF5228DB9C6800CAB09F /* Screens Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF5328DB9C8B00CAB09F /* CouterView */,
+			);
+			path = "Screens Modules";
+			sourceTree = "<group>";
+		};
+		F357CF5328DB9C8B00CAB09F /* CouterView */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF5428DB9CBD00CAB09F /* CounterViewController.swift */,
+				F357CF5628DB9CE400CAB09F /* CounterViewModel.swift */,
+				F346BB0028EFBE04000762F4 /* CounterModel.swift */,
+			);
+			path = CouterView;
+			sourceTree = "<group>";
+		};
+		F357CF5828DB9D6800CAB09F /* Screen UI */ = {
+			isa = PBXGroup;
+			children = (
+				F346BB0228EFC4E7000762F4 /* Counter Cell */,
+				F357CF5928DB9D7300CAB09F /* StoryBoard */,
+			);
+			path = "Screen UI";
+			sourceTree = "<group>";
+		};
+		F357CF5928DB9D7300CAB09F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F357CF2828DB96B500CAB09F /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +213,10 @@
 			dependencies = (
 			);
 			name = "drink-counter-app";
+			packageProductDependencies = (
+				F346BB0428F7A0AE000762F4 /* Realm */,
+				F346BB0628F7A0AE000762F4 /* RealmSwift */,
+			);
 			productName = "drink-counter-app";
 			productReference = F357CF1F28DB96B500CAB09F /* drink-counter-app.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +289,9 @@
 				Base,
 			);
 			mainGroup = F357CF1628DB96B500CAB09F;
+			packageReferences = (
+				F346BB0328F7A0AE000762F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = F357CF2028DB96B500CAB09F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F357CF2728DB96B500CAB09F /* ViewController.swift in Sources */,
+				F357CF5728DB9CE400CAB09F /* CounterViewModel.swift in Sources */,
+				F357CF5528DB9CBD00CAB09F /* CounterViewController.swift in Sources */,
 				F357CF2328DB96B500CAB09F /* AppDelegate.swift in Sources */,
+				F346BB0C28F8FAA5000762F4 /* Restaurant.swift in Sources */,
+				F346BB1028F8FE1F000762F4 /* User.swift in Sources */,
 				F357CF2528DB96B500CAB09F /* SceneDelegate.swift in Sources */,
+				F346BB0128EFBE04000762F4 /* CounterModel.swift in Sources */,
+				F346BB1228F9002E000762F4 /* GenericCell.swift in Sources */,
+				F346BB0A28F8F6F8000762F4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +679,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F346BB0328F7A0AE000762F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.32.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F346BB0428F7A0AE000762F4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F346BB0328F7A0AE000762F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F346BB0628F7A0AE000762F4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F346BB0328F7A0AE000762F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F357CF1728DB96B500CAB09F /* Project object */;
 }

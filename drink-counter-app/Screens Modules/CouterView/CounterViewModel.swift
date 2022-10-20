@@ -10,4 +10,8 @@ import Foundation
 
 struct CounterViewModel {
     
+    func count(value: Int) -> Int {
+        return value + 1
+    }
+    
 }
